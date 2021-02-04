@@ -26,12 +26,6 @@ npm run build-plugin
 
 Load the plugin from the plugins section on Invoker and select the generated zip file.
 
-## Roadmap
-
-- Add name for a new Snapshot.
-- Add compression option when creating a new Snapshot.
-- Add keep option when cleaning up Snapshots.
-
 ## Local Installation
 
 Create a folder on the root of your Laravel application `invoker/plugins/db-snapshots` and clone the repository into that folder.
@@ -78,6 +72,12 @@ The `spatie/laravel-db-snapshots` package uses mysqldump, you need to specify on
     'dump' => [ 'dump_binary_path' => '/usr/local/bin/' ] // <----- This line
 ],
 ```
+
+## Roadmap
+
+- Add name for a new Snapshot.
+- Add compression option when creating a new Snapshot.
+- Add keep option when cleaning up Snapshots.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
